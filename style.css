@@ -1,0 +1,267 @@
+body{
+    
+}
+
+#wrapper{
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(0, #000, #ccc);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.contaner {
+    max-width: 960px;
+    margin: 0px auto;
+}
+#header{
+    position: relative;
+    background-color: #000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu li a{
+    color: #ccc;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #000;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    border: 1px solid #7a7171;
+    display: none;
+}
+
+#main-menu li:hover a{
+    background-color: #646161;
+    color: #432828;
+}
+
+#main-menu li:hover ul.sub-menu{
+    display: block;
+}
+
+#main-menu ul.sub-menu a{
+    background-color: #000;
+    padding: 8px 15px;
+    border-bottom: 1px solid #333;
+}
+
+#main-menu ul.sub-menu li:hover a{
+    background-color: #646161;
+}
+
+#main-menu ul.sub-menu li:hover a{
+    border-bottom: 0px solid #7a7171;
+}
+
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+
+#main-menu>li.has-child::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 18px 0px;
+} 
+.list-image{
+    display: flex;
+    transition: 0.5s;
+
+}
+.btns {
+    display: flex;
+    color: #201e1e;
+    font-size: 15px;
+}
+#blockr {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#block2 {
+    background-color: #000;
+    width: 100%;
+    height: 150vh;
+    position: relative;
+}
+
+.box {
+    width: 80%;
+    margin-left: 9%;
+    margin-right: auto;
+    font-size:  18px;
+    top: 30%;
+    position: absolute;
+    list-style: none;
+}
+ul li {
+    border: 1px solid black;
+}
+.boxa-z {
+    display: flex;
+    background-color: #fff;
+}
+
+.box1 {
+    position: absolute;
+    margin-top: 45%;
+    width: 100%;
+    height: 20%;
+}
+.box1a{
+    position: absolute;
+    margin-left: 10%;
+    background-color: #ccc;
+    width: 20%;
+    height: 100%;
+}
+.box1a1 {
+    background-color: #fff;
+    margin: 0%;
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+.box1b {
+    position: absolute;
+    margin-left: 40%;
+    background-color: #ccc;
+    width: 20%;
+    height: 100%;
+}
+.box1b1 {
+    background-color: #fff;
+    margin: 0%;
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+.box1c {
+    position: absolute;
+    margin-left: 70%;
+    background-color: #ccc;
+    width: 20%;
+    height: 100%;
+}
+.box1c1 {
+    background-color: #fff;
+    margin: 0%;
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+.font1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 105%;
+    left: 15px;
+    right: 15px;
+    color: #000;
+    font-size: 20px;
+}
+.font2 {
+    position: absolute;
+    top: 20%;
+    font-size: 20px;
+    color: #646161;
+    width: 100%;
+    height: 100%;
+}
+.font3 {
+    position: absolute;
+    top: 20%;
+    font-size: 18px;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+.font4 {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    width: 40%;
+    height: 20%;
+    top:20%;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#block3 {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: aliceblue;
+}
+.bl3-font1 {
+    position: absolute;
+    top: 15%;
+    font-size: 50px;
+    width: 100%;
+    color: #000;
+    text-align:center;
+}
+.bl3-font2 {
+    position: absolute;
+    top: 28%;
+    font-size: 25px;
+    width: 100%;
+    color: #7f7878;
+    text-align:center;
+}
+.font2 :hover .font4{
+    background-color: #886d6d;
+}
+.block-child {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 60%;
+}
+.inf {
+    position: absolute;
+    left: 30%;
+}
+.in1 {
+    position: absolute;
+    left: 45%;
+    margin-top: 1%;
+}
+.last {
+    position: absolute;
+    text-align:center;
+    background-color: #000;
+    color: #fff;
+    width: 20%;
+    height: 100%;
+    left: 80%;
+}
+.in1 :hover .last{
+    background-color: #646161;
+    color: #886d6d;
+}
+/**/
